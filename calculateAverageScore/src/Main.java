@@ -29,9 +29,7 @@ public class Main {
 
         int sum = math + physics + chemistry + turkish + history + music;
         double result = sum / 6.0;
-        System.out.println("Your result is : " + result);
-
         String average = result > 60 ? "You passed the class" : "You failed the class";
-        System.out.println(average);
+        System.out.println("Your result is : " + result + "! " + average);
     }
 }
