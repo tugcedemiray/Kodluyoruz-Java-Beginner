@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Triangle {
     public static void main(String[] args) {
-        //calculate hypotenuse of right-angled triangle
         int edge1,edge2,edge3,perimeter;
         double hypotenuse,u,area;
         Scanner input = new Scanner(System.in);
@@ -10,7 +9,6 @@ public class Triangle {
         edge1 = input.nextInt();
         System.out.print("Enter the second edge of triangle : ");
         edge2 = input.nextInt();
-        //calculate perimeter and area of triangle
         System.out.print("Enter the third edge of triangle : ");
         edge3 = input.nextInt();
         hypotenuse = Math.sqrt(edge1*edge1 + edge2*edge2);
