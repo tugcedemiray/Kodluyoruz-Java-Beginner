@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calculateVAT {
+public class CalculateVAT {
     public static void main(String[] args) {
         double amountOfMoney, percentageOfVAT, amountOfVAT, moneyWithVAT;
         Scanner input = new Scanner(System.in);
