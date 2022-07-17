@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class CalculatorWithIfElse {
     public static void main(String[] args) {
         int number1, number2, choice;
@@ -8,7 +7,6 @@ public class CalculatorWithIfElse {
         number1 = input.nextInt();
         System.out.print("Enter the second number : ");
         number2 = input.nextInt();
-
         System.out.println("1-Addition\n2-Subtraction\n3-Multiplication\n4-Division");
         System.out.print("What is your choice ? : ");
         choice = input.nextInt();
@@ -26,7 +24,7 @@ public class CalculatorWithIfElse {
                 System.out.println("A number cannot be divided by zero!");
             }
         } else {
-            System.out.println("You made a wrong choice! Please try again.");
+            System.out.println("You made a wrong decision! Please try again.");
         }
     }
 }

@@ -1,1 +1,1 @@
-if else kullanarak hesap makinesi programi yaziniz
+if else kullanarak basit bir hesap makinesi programi yaziniz
