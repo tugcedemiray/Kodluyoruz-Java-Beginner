@@ -1,6 +1,6 @@
 import  java.util.Scanner;
 
-public class userLogin {
+public class UserLogin {
     public static void main(String[] args) {
         String userName,userPassword,changePassword,newPassword;
         Scanner input = new Scanner(System.in);
@@ -14,11 +14,11 @@ public class userLogin {
         } else if (!userPassword.equals("java123")) {
             System.out.print("Do you want to change your password ? If yes press Y otherwise press N : ");
             changePassword = input.nextLine();
-            if(changePassword.equals("Y")) {
+            if(changePassword.equalsIgnoreCase("Y")) {
                 System.out.print("Please enter new password: ");
                 newPassword = input.nextLine();
                 if(newPassword.equals(userPassword) || newPassword.equals("java123")) {
-                    System.out.println("Your password could not been created,please enter new password!");
+                    System.out.println("Your password could not been created, please enter new password!");
                 } else {
                     System.out.println("Your password has been created!");
                 }
