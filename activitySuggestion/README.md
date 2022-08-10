@@ -13,4 +13,5 @@ Koşullar :
  . Sıcaklık 25'ten büyük ise "Yüzme" etkinliğini öner.
 
 Ödev
+
 Aynı örnek üzerinden if koşulları başka hangi şekilde oluşturulabilirdi farklı çözüm yolları bulunuz.
