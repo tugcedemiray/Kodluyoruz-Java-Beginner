@@ -1,0 +1,1 @@
+Girilen 3 sayıyı "büyükten küçüğe" ve "küçükten büyüğe" sıralayan programı yazınız.
