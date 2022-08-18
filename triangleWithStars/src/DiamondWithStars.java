@@ -24,7 +24,6 @@ public class DiamondWithStars {
                 System.out.print("*");
             }
             System.out.println(" ");
-            //for (int j = number ; j >= 1 ; j) {
         }
     }
 }

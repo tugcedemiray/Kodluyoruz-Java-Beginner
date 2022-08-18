@@ -9,7 +9,6 @@ public class TriangleWithStarsWhileExample {
 
         height = 1;
         while (height <= number) {
-            //System.out.println(height);
             space = 1;
             while (space <= (number - height)) {
                 System.out.print(" ");
