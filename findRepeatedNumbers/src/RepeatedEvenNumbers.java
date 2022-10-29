@@ -28,7 +28,6 @@ public class RepeatedEvenNumbers {
                 }
             }
         }
-        System.out.println("Integer Array: "
-                + Arrays.toString(Arrays.copyOfRange(duplicate, 0, loopCount)));
+        System.out.println("Integer Array: " + Arrays.toString(Arrays.copyOfRange(duplicate, 0, loopCount)));
     }
 }

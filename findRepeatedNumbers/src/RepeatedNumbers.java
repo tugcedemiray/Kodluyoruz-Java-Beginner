@@ -24,7 +24,6 @@ public class RepeatedNumbers {
                 }
             }
         }
-        //System.out.println(Arrays.toString(duplicate));
         for (int value:duplicate) {
             if (value != 0) {
                 System.out.println(value);
