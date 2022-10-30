@@ -24,6 +24,10 @@ public class SortingArrayElements {
                 }
             }
         }
-        System.out.println(Arrays.toString(arr));
+        System.out.println("Sorted Array : " + Arrays.toString(arr));
+        System.out.print("Sorting : ");
+        for (int element: arr) {
+            System.out.print(element + " ");
+        }
     }
 }
