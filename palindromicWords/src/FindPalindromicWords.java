@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class FindPalindromicWords {
     static boolean isPalindrome(String str) {
         int i = 0;
@@ -12,14 +14,24 @@ public class FindPalindromicWords {
         return true;
     }
     static boolean isPalindrome2(String str) {
-        String reverse = "";
+        StringBuilder reverse = new StringBuilder();
         for (int i = str.length() - 1; i >= 0 ; i--) {
-            reverse += str.charAt(i);
+            //reverse += str.charAt(i);
+            reverse.append(str.charAt(i));
         }
-        return str.equals(reverse);
+        return str.equals(reverse.toString());
     }
     public static void main(String[] args) {
-        System.out.println(isPalindrome("abba"));
-        System.out.println(isPalindrome2("kayak"));
+        //System.out.println(isPalindrome("abba"));
+        //System.out.println(isPalindrome2("kayak"));
+        Scanner input = new Scanner(System.in);
+        System.out.print("Please enter a word : ");
+        String word = input.nextLine();
+        if (isPalindrome2(word)) {
+            System.out.println("Your word is Palindromic");
+        } else {
+            System.out.println("Your word is not Palindromic");
+        }
+
     }
 }
