@@ -12,9 +12,11 @@ Java dilinde Mayın Tarlası oyunu yapmanızı bekliyoruz.
 * Kullanıcı hiç bir mayına basmadan tüm noktaları seçebilirse oyunu kazanmalı.
 
 **Kaybetme Senaryosu**
+
 ![](LooseGame.png)
 
 **Kazanma Senaryosu**
+
 ![](WinGame.png)
 
 
